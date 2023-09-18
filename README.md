@@ -11,7 +11,7 @@ $$ H_\text{obj} = \sum_q c^X_q X_q \otimes X_{q+1} + c^Y_q Y_q \otimes Y_{q+1}. 
 
 As time-dependent envelopes $f_q(t)$, we use a (modulated) Gaussian in resonance with the qubit frequencies $\omega_q = 5$ GHz.
 
-![Benchmark results comparing PennyLane, qiskit-dynamics, and QuTiP](/plots/Forward-pass_PL_QUTIP_QISKIT.png)
+![Benchmark results comparing PennyLane, qiskit-dynamics, and QuTiP.](/plots/Forward-pass_PL_QUTIP_QISKIT.png)
 
 The main benchmark is done in [Forward-pass_PL_QUTIP_QISKIT_M1.ipynb](Forward-pass_PL_QUTIP_QISKIT_M1.ipynb). We ran this on an Macbook Pro 16 with an M1 pro chip. We get qualitatively identical results using an Intel i7-1260P in an LG gram 16 (2022), see [Forward-pass_PL_QUTIP_QISKIT_i7-1260P.ipynb](Forward-pass_PL_QUTIP_QISKIT_i7-1260P.ipynb).
 
