@@ -151,7 +151,7 @@ def _timeit_jax(callable, *args, reps=3):
 modes = ["PennyLane"]
 reps = 3
 
-n_wiress = list(range(2,10))
+n_wiress = list(range(2,16))
 
 datan = {}
 
