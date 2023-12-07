@@ -13,7 +13,7 @@ As time-dependent envelopes $f_q(t)$, we use a (modulated) Gaussian in resonance
 
 ![Benchmark results comparing PennyLane, qiskit-dynamics, and QuTiP.](/plots/Forward-pass_PL_QUTIP_QISKIT.png)
 
-The main benchmark is done in [Forward-pass_PL_QUTIP_QISKIT_M1.ipynb](Forward-pass_PL_QUTIP_QISKIT_M1.ipynb). We ran this on an Macbook Pro 16 with an M1 pro chip. We get qualitatively identical results using an Intel i7-1260P in an LG gram 16 (2022), see [Forward-pass_PL_QUTIP_QISKIT_i7-1260P.ipynb](Forward-pass_PL_QUTIP_QISKIT_i7-1260P.ipynb).  
+The main benchmark is done in [Forward-pass_PL_QUTIP_QISKIT.ipynb](Forward-pass_PL_QUTIP_QISKIT.ipynb). We ran this on an Macbook Air 15 with an Apple M2 processor. We get qualitatively identical results using an Intel i7-1260P in an LG gram 16 (2022). Please open an issue in case you experience significant deviations from this picture
 
 We also perform the same benchmark on a NVIDIA TITAN Xp GPU, see [Forward-pass_PL_hardware.ipynb](Forward-pass_PL_hardware.ipynb).
 
